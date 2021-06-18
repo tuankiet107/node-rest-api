@@ -11,7 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 console.log("Hello Techbase Vietnam");
-console.log("Hello Huyen Trang");
+console.log("Hello Tuan Kiet");
+console.log("Hello Minh Chien");
 
 app.use("/v1/api/products", productRoute);
 
