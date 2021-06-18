@@ -10,6 +10,9 @@ ConnectDB();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+console.log("Hello Techbase Vietnam");
+console.log("Hello Huyen Trang");
+
 app.use("/v1/api/products", productRoute);
 
 try {
